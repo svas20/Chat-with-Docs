@@ -6,6 +6,9 @@ from llama_index.core import Settings
 import sys
 from exception import customexception
 from logger import logging
+import os
+
+OPENAI_API_KEY=os.environ.get("OPENAI_API_KEY")
 
 def model(Index):
     try:
