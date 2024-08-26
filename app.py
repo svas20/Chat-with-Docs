@@ -6,7 +6,7 @@ import os
 
 
 def main():
-    st.header("Conversational Chatbot")
+    st.header("Chat with Docs")
     with st.sidebar:
         OPENAI_API_KEY = st.text_input("Enter your OPENAI_API_KEY:")
         if st.button("Enter"):
